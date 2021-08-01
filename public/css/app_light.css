@@ -1,0 +1,222 @@
+/* Larvel default styling overwrite*/
+ul.pagination {
+    color: #fff;
+}
+ul.pagination a {
+    color: #e50914;
+}
+
+li.disabled {
+    color: #e50914;
+}
+
+li.active {
+    color: green;
+}
+
+/* Helper styles*/
+.form-title {
+    color: #000;
+}
+
+.is-invalid {
+    border: 2px solid red;
+}
+
+/* Start of styles */
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+header a {
+    color: #e50914;
+}
+
+header nav a:hover {
+    background-color: #e50914;
+    color: #fff;
+}
+
+header a.active {
+    background-color: #e50914;
+    color: white;
+}
+header button.logout {
+    color: #e50914;
+}
+header button.logout:hover {
+    opacity: 0.8;
+}
+
+/* Slider using transitions */
+.slider-text {
+    color: rgb(197, 197, 197);;
+}
+
+/* Buttons for slider */
+
+.slider > a {
+    background: rgb(197, 197, 197);;
+    color: rgb(19, 19, 19);
+}
+
+.slider > a:hover {
+    color: #fff;
+}
+
+/* Netflix like movie display */
+.movie-item {
+    background: white;
+}
+
+.movie-text {
+    color: rgb(197, 197, 197);;
+}
+
+.section-header {
+    color: #000;
+}
+
+.container-movie {
+    background-color: rgb(197, 197, 197);;
+}
+
+.movie-description {
+    color: #000;
+}
+
+.movie-description a {
+    color: rgb(51, 51, 51);
+}
+
+/* Registration/login styles and shared inputs styles*/
+
+.input-group {
+    color: #000;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    background: white;
+}
+
+input[type="file"]{
+    border: 3px solid white;
+}
+
+/* Review styles */
+
+.review {
+    color:#000;
+    background-color: rgb(75, 75, 75);
+}
+
+.user-review {
+    background-color: rgb(156, 109, 109);
+}
+
+form h2 {
+    color: #000;
+}
+
+/* End of register/login styles */
+/*Admin and users styles */
+
+.alert {
+    background-color: #e41620;
+    color: #000;
+}
+
+/* Table styles and action buttons */
+
+table thead {
+    background-color: #fff;
+    color: rgb(207, 27, 27);
+}
+
+tbody {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #000;
+}
+.filter-title {
+    color: #000;
+}
+
+a.search-genre {
+    color: #000;
+}
+
+.search-label {
+    color: #000;
+}
+
+.search-btn {
+    background-color: #fff;
+    color: #e50914;
+}
+
+a.link-button {
+    background-color: white;
+    color: #e50914;
+}
+
+a.link-button:hover {
+    background-color: #000;
+}
+
+.delete-btn {
+    background-color: white;
+    color:  #e50914;
+}
+.delete-btn:hover {
+    background-color: #000;
+}
+.pagination-btns {
+    color: #fff;
+}
+
+/* Admin navigation box */
+
+/* Footer styles */
+footer {
+    background-color: white;
+}
+
+/* Logo in footer */
+
+h2.footer-title {
+    color: #e50914;
+}
+
+h3.footer-section-title {
+    color: rgb(150, 150, 150);
+}
+
+ul.footer-list > li {
+    color: rgb(19, 19, 19);
+}
+
+a.footer-link {
+    color: rgb(19, 19, 19);
+}
+
+.footer-inner:after {
+    color: rgb(19, 19, 19);
+}
+
+/*Styles for change skin buttons */
+
+.skin-btn {
+    color: rgb(19, 19, 19);
+    background-color: #d1d1d1;
+}

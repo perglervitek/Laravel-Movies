@@ -1,0 +1,148 @@
+ul.pagination{
+    color: #000;
+}
+ul.pagination a{
+    color: red;
+}
+
+li.disabled{
+    color: red;
+}
+
+li.active{
+    color: green;
+}
+
+.form-title{
+    color:#fff;
+}
+
+/* Start of styles */
+
+body {
+    background-color: #fff
+}
+
+header {
+    background-color: rgb(19, 19, 19);
+}
+
+header a {
+    color: #e50914;
+}
+header nav a:hover {
+    background-color: #e50914;
+    color: #fff;
+}
+
+header a.active {
+    background-color: #e50914;
+    color: #000;
+}
+header button.logout {
+    color: #e50914;
+}
+header .right {
+    float: right;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    background: white;
+}
+
+
+.slides > div {
+    background: #fff;
+}
+
+
+.slider > a {
+    background: #000;
+}
+
+.slider > a:hover {
+    background: #0000ff;
+}
+
+/* Main content */
+
+.movie-item {
+    background: #000;
+}
+
+.section-header {
+    color: #000;
+}
+
+
+/* Registration/login styles */
+
+
+.input-group {
+    color: #000;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    background: #000;
+}
+
+.register-btn {
+    background-color: #e50914;
+    color: #fff;
+}
+
+
+/* End of register/login styles */
+/*Admin and users styles */
+.box {
+    margin: 0 auto;
+}
+
+.alert{
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+    background-color: #ff7c82;
+    color: #000;
+    margin: 2em;
+}
+
+/* Table styles */
+
+table thead {
+    background-color: #e50914;
+    color: #000;
+}
+tbody {
+    background-color: #fff;
+    color: #000;
+}
+a.link-button {
+    background-color: #e50914;
+    color: #fff;
+}
+
+a.link-button:hover {
+    background-color: #000;
+}
+.delete-btn {
+    background-color: #e50914;
+    color: #000;
+}
+.delete-btn:hover {
+    background-color: #fff;
+}
+.pagination-btns {
+    color: #000;
+}
+
+@media print{
+    
+}
